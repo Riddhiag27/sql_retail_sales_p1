@@ -1,7 +1,6 @@
 -- SQL Retail Sales Analysis - P1
 CREATE DATABASE sql_project_p2;
 
-
 -- Create TABLE
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
@@ -20,10 +19,7 @@ CREATE TABLE retail_sales
             );
 
 SELECT * FROM retail_sales
-LIMIT 10
-
-
-    
+LIMIT 10;
 
 SELECT 
     COUNT(*) 
@@ -85,10 +81,7 @@ SELECT COUNT(*) as total_sale FROM retail_sales
 
 SELECT COUNT(DISTINCT customer_id) as total_sale FROM retail_sales
 
-
-
-SELECT DISTINCT category FROM retail_sales
-
+SELECT DISTINCT category FROM retail_sale
 
 -- Data Analysis & Business Key Problems & Answer
 
